@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1264px;
+  margin: auto;
+  padding: 10px;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Header
+------------------------------------ */
+
+header {
+  background-color: #ff7a00;
+  color: #fff;
+  height: 150px;
+}
+
+.areaLogo {
+  display: flex;
+  max-width: 340px;
+}
+
+.areaLogo > h1 > a {
+  background-image: none, url(../images/easyrh-logo.png);
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 65px;
+  display: block;
+  text-indent: -999999px;
+  text-decoration: none;
+}
+
+.areaTitle {
+  display: flex;
+}
+
+/* Main
+------------------------------------ */
+
+.areaMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.areaActions {
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 340px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.areaTable {
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 924px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  margin-top: -45px;
+}
+
+/* Table
+------------------------------------ */
+
+.areaTable > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableEmployees > thead {
+  background-color: #fbfcff;
+}
+
+thead tr {
+  height: 80px;
+}
+
+tbody tr:hover {
+  background-color: #ff7a00;
+  color: #fff;
+}
+
+.tableEmployees td {
+  padding: 5px;
+}
+
+.colId {
+  text-align: center;
+}
+
+.colSalary {
+  text-align: right;
+}
+
+/* Area Actions
+------------------------------------ */
+
+fieldset {
+  margin-top: 30px;
+  border: 1px solid #ff7a00;
+}
+
+/* Footer
+------------------------------------ */
+
+footer {
+  height: 70px;
+  align-items: center;
+  background-color: #f5f7fa;
+  color: #707070;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+}
+
+ul li p {
+  display: inline;
+}
+
+footer a {
+  text-decoration: none;
+  color: #707070;
+}
+
+footer a:hover {
+  color: #ff7a00;
+}
+
+li.boxSocial p a {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+  text-indent: -999999px;
+  display: inline-block;
+}
+
+.areaDev,
+.areaSocial {
+  margin: 10px;
+}
+
+.areaSocial {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a.facebook {
+  background-image: none, url(../images/facebook-logo.svg);
+}
+
+a.instagram {
+  background-image: none, url(../images/instagram-logo.svg);
+}
+
+a.linkedin {
+  background-image: none, url(../images/linkedin-logo.svg);
+}
+
+a.github {
+  background-image: none, url(../images/github-logo.svg);
+}

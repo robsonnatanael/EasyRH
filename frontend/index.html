@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>EasyRH</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="box">
+          <div class="areaLogo">
+            <h1><a href="#">EasyRH</a></h1>
+          </div>
+          <div class="areaTitle">
+            <h2><span id="amount"></span> FUNCIONÁRIOS</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="areaMain">
+        <div class="areaActions">
+          <h2>OPÇÕES</h2>
+          <p>
+            Ordenar por:
+            <select name="sortBy" id="sortBy">
+              <option value="1">Nome ascendente</option>
+              <option value="2">Nome descendente</option>
+              <option value="3">Salário ascendente</option>
+              <option value="4">Salário descendente</option>
+            </select>
+          </p>
+          <fieldset class="filter">
+            <legend>FILTRAR POR FUNÇÃO</legend>
+            <div id="boxFilter"></div>
+          </fieldset>
+        </div>
+        <div class="areaTable">
+          <table class="tableEmployees">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Função</th>
+                <th>Salário</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyEmployees"></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="box">
+          <div class="areaDev">
+            <small
+              >Copyright &copy; 2021 -
+              <a href="https://www.robsonnatanael.com.br"
+                >Desenvolvido por Robson Natanael</a
+              ></small
+            >
+          </div>
+          <div class="areaSocial">
+            <ul>
+              <li class="boxSocial">
+                <p>
+                  <a
+                    class="facebook"
+                    href="https://www.facebook.com/robsonnatanael.com.br"
+                    >Facebook</a
+                  >
+                </p>
+              </li>
+              <li class="boxSocial">
+                <p>
+                  <a
+                    class="instagram"
+                    href="https://www.instagram.com/robsonnatanael.com.br/"
+                    >Instagram</a
+                  >
+                </p>
+              </li>
+              <li class="boxSocial">
+                <p>
+                  <a class="linkedin" href="https://bit.ly/linkedin-rn"
+                    >LinkedIn</a
+                  >
+                </p>
+              </li>
+              <li class="boxSocial">
+                <p>
+                  <a class="github" href="https://bit.ly/github-rn">GitHub</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
