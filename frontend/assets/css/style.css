@@ -2,8 +2,22 @@
   margin: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxConatiner {
+  flex: 1 0 auto;
 }
 
 .container {
@@ -37,6 +51,7 @@ header {
 .areaLogo {
   display: flex;
   max-width: 340px;
+  height: 100px;
 }
 
 .areaLogo > h1 > a {
@@ -120,6 +135,7 @@ tbody tr:hover {
 
 fieldset {
   margin-top: 30px;
+  margin-bottom: 40px;
   border: 1px solid #ff7a00;
 }
 
@@ -127,6 +143,7 @@ fieldset {
 ------------------------------------ */
 
 footer {
+  flex-shrink: 0;
   height: 70px;
   align-items: center;
   background-color: #f5f7fa;
